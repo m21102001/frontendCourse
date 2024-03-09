@@ -1,0 +1,40 @@
+.upper-div {
+    background-color: red;
+    color: white;
+}
+
+.front {
+    color: rgb(255, 255, 255);
+    background-color: #00f;
+    border: 10px solid red;
+    margin: 40px 30px 20px 10px;
+    /* margin: 30px 20px 10px; */
+    /* margin: 20px 10px; */
+    /* margin: 10px; */
+    padding: 10px 20px 30px 40px;
+    /* padding: 10px 30px 40px; */
+    /* padding: 10px 40px; */
+    /* padding: 10px; */
+}
+
+.end {
+    color: red;
+    background-color: darkblue;
+}
+
+.image {
+    width: 413px;
+    height: 500px;
+}
+
+.learn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.my-name {
+    margin: 30px;
+}
