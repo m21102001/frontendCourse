@@ -1,39 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .p-class {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+
+    .list-style {
+      list-style: none;
+    }
+
+    .margin-x {
+      margin: 0 23px;
+      text-decoration: none;
+      color: black;
+    }
+
+    .margin-rl {
+      margin: 0 12px;
+      padding: 4px 8px;
+      background: none;
+    }
+
+    .border-none {
+      border: none;
+    }
+
+    .border-register {
+      border-radius: 5px;
+      border: 2px solid #bfbfbf;
+    }
   </style>
 </head>
+
 <body>
-
-  Features
-  Company
-  Careers
-  About
-
-  Login
-  Register
-
-  Make remote work
-
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
-
-  Learn more
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div>
+    <div class="p-class">
+      <img src="./images/logo.svg" alt="">
+      <div>
+        <ul class="p-class">
+          <li class="list-style">
+            <a class="margin-x" href="./features.html">Features</a>
+          </li>
+          <li class="list-style">
+            <a class="margin-x" href="./company.html">company</a>
+          </li>
+          <li class="list-style">
+            <a class="margin-x" href="./Careers.html">Careers</a>
+          </li>
+          <li class="list-style">
+            <a class="margin-x" href="./features.html">about</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <button class="margin-rl border-none" type="button">Login</button>
+        <button class="margin-rl border-register" type="button">Register</button>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>
+          <h1>make <br> remote work</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem architecto at cumque voluptatem
+            quae
+          </p>
+          <button>learn more</button>
+        </div>
+        <div class="">
+          <img src="./images/client-audiophile.svg" alt="">
+          <img src="./images/client-databiz.svg" alt="">
+          <img src="./images/client-maker.svg" alt="">
+          <img src="./images/client-meet.svg" alt="">
+        </div>
+      </div>
+      <img src="./images/image-hero-desktop.png" width="500px" height="500px" alt="" srcset="">
+    </div>
   </div>
+
 </body>
+
 </html>
